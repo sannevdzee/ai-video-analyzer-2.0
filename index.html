@@ -698,7 +698,7 @@
       const safeName = (vp.fileName || 'video').replace(/[^\w.-]+/g, '_');
       const label = (PERSPECTIVES[perspectiveKey]?.label || perspectiveKey).replace(/[^\w.-]+/g, '_');
       a.href = url;
-      a.download = `analysis_${safeName}_${label}.pdf`;
+      a.download = `analysis_${safeName}_${label}.txt`;
       document.body.appendChild(a);
       a.click();
       a.remove();
