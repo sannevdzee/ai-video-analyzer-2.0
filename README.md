@@ -5,7 +5,7 @@ AI-powered video analysis tool - IDEM307 course project 2.0
 **IDEM307 Course Project - TU Delft Industrial Design Engineering**
 Frame-by-frame video analysis with multiple AI perspectives.
 ## Live Demo
-[Try the application here](YOUR-VERCEL-URL)
+[[Try the application here](https://ai-video-analyzer-2-0-50uzcuh0w-sannevdzees-projects.vercel.app)]
 ## Features
 - Frame-by-frame video analysis using Google Gemini AI
 - Multiple analytical perspectives (Urban Planning, Social Dynamics, Safety,
