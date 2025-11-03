@@ -76,12 +76,12 @@
 
             <!-- New: Re-Analyze + Download -->
             <button id="reanalyzeBtn"
-              class="inline-flex items-center justify-center rounded-xl bg-amber-600 text-white px-4 py-2 text-sm font-medium hover:bg-amber-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              class="inline-flex items-center justify-center rounded-xl bg-indigo-600 text-white px-4 py-2 text-sm font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed"
               title="Re-process previously captured frames with the selected perspective">
               Re-analyze with New Perspective
             </button>
             <button id="downloadBtn"
-              class="inline-flex items-center justify-center rounded-xl bg-emerald-600 text-white px-4 py-2 text-sm font-medium hover:bg-emerald-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              class="inline-flex items-center justify-center rounded-xl bg-indigo-600 text-white px-4 py-2 text-sm font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed"
               title="Download a text report of the current analysis">
               Download Analysis
             </button>
@@ -698,7 +698,7 @@
       const safeName = (vp.fileName || 'video').replace(/[^\w.-]+/g, '_');
       const label = (PERSPECTIVES[perspectiveKey]?.label || perspectiveKey).replace(/[^\w.-]+/g, '_');
       a.href = url;
-      a.download = `analysis_${safeName}_${label}.txt`;
+      a.download = `analysis_${safeName}_${label}.pdf`;
       document.body.appendChild(a);
       a.click();
       a.remove();
